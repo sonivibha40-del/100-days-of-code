@@ -1,14 +1,10 @@
-//Write a program to input two numbers and display their sum, difference, product, and quotient.
+//Write a program to calculate the area and circumference of a circle given its radius.
 #include<stdio.h>
 int main(){
-   int a,b;
-   printf("Enter your first no.: ");
-   scanf("%d",&a);
-   printf("Enter your second no.: ");
-   scanf("%d",&b);
-   printf("sum: %d\n",a+b);
-   printf("diff: %d\n",a-b);
-   printf("product: %d\n",a*b);
-   printf("divide: %d\n",a/b);
-   return 0;
+  float r;
+  printf("Enter radius of the circle: ");
+  scanf("%f",&r);
+  printf("Area of circle: %f\n",3.14*r*r);
+  printf("Perimeter of circle: %f\n",2*3.14*r);
+  return 0;
 }
