@@ -23,5 +23,6 @@ int main() {
     else
         printf("Not palindrome");
 
+    printf("\n");
     return 0;
 }
